@@ -9,7 +9,6 @@ locals {
     project_code = "boj"
     env          = "dev"
     zone         = "z1"
-    agency_code  = "brettoj"
     tier         = "web"
   }
 }
