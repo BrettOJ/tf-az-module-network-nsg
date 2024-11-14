@@ -30,10 +30,9 @@ variable "diag_object" {
 variable "naming_convention_info" {
   description = "(Required) Specify the naming convention information to the resource."
   type = object({
-    project_code = string
-    env          = string
-    zone         = string
-    tier         = string
+    site        = string
+    env         = string
+    app         = string
     name        = string
   })
 }

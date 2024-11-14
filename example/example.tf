@@ -60,7 +60,7 @@ source = "../"
 nsg_info = {       
   resource_group_name = var.resource_group_name
   location            = var.location
-  aming_convention_info = local.naming_convention_info
+  naming_convention_info = local.naming_convention_info
   tags                = local.tags
   depends_on          = [var.dependencies]
 }
